@@ -1,0 +1,114 @@
+/*
+
+/* 
+    Created on : Oct 27, 2015, 10:14:34 AM
+    Author     : jlee37
+*/
+
+
+body {
+    margin:0;
+    padding:0;
+    
+
+
+
+
+
+
+
+
+
+background: #f2f2f2; /* fallback for old browsers */
+
+        
+
+
+
+        
+
+
+
+
+}
+
+#header img{
+    display: inline-block;
+    width:40%;
+    max-width:40%;
+    padding:0;
+    margin-top: 10px;
+    position: relative;
+    left: 20px;
+}
+
+#menu_wraper {
+    float: left;
+    width:220px;
+    padding:5px;
+    position: fixed;
+    height: 100%;
+    background: #0074D9;
+}
+
+
+#cont {   
+    width: 800px ;
+    margin:0 auto;
+}
+
+#cont p{
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    margin: 20px;
+    padding: 10px;
+    overflow: hidden;
+    border: none;
+    font: normal 16px/1 "Times New Roman", Times, serif;
+    color: rgba(0,0,0,1);
+    text-align: center;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    background:#d9d9d9 ;
+    -webkit-box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.3) ;
+    box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.3) ;
+
+}
+
+#header {
+background: #d9d9d9; /* fallback for old browsers */
+
+    color:black;
+    padding:5px;
+    height:190px; 
+    -webkit-box-shadow: 0px 4px 8px -1px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 4px 8px -1px rgba(0,0,0,1);
+    box-shadow: 0px 4px 8px -1px rgba(0,0,0,1);
+    z-index: 100;
+}
+
+#header h3 {
+    float:right;
+    display: inline-block;
+    margin-top: 150px;
+}
+
+#header h3 a{
+    margin-right: 150px;
+    margin-left: 40px;
+}
+
+
+#footer {
+    background:#d9d9d9 ;
+    -webkit-box-shadow: 0px -1px 2px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -1px 2px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px -1px 2px -1px rgba(0,0,0,0.75);
+    text-align:center;
+    position:fixed;
+    bottom:0px;
+    width:100%;
+    height:40px;
+    padding:5px;
+}

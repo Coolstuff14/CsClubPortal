@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+http://jsfiddle.net/zinoui/FSpds/light/
+    Created on : Dec 16, 2015, 7:41:12 AM
+    Author     : jlee37
+*/
+
+.zui-table {
+    width: 100%;
+    border: solid 1px #DDEEEE;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: normal 18px Arial, sans-serif;
+}
+.zui-table thead th {
+    background-color: #0074D9;
+    border: solid 1px #000000;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000;
+}
+.zui-table tbody td {
+    border: solid 1px #000000;
+    color: #333;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+}
+.zui-table-highlight-all {
+    overflow: hidden;
+    z-index: 1;
+}
+.zui-table-highlight-all tbody td, .zui-table-highlight-all thead th {
+    position: relative;
+}
+.zui-table-highlight-all tbody td:hover::before {
+    background-color: #C0C0C0;
+    content:'\00a0';
+    height: 100%;
+    left: -5000px;
+    position: absolute;
+    top: 0;
+    width: 10000px;
+    z-index: -1;
+}
